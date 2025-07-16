@@ -6,63 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		6FDE6ADC2E278B8800742381 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6FDE6AC42E278B8600742381 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6FDE6ACB2E278B8600742381;
-			remoteInfo = PetPlusV2;
-		};
-		6FDE6AE62E278B8800742381 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6FDE6AC42E278B8600742381 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6FDE6ACB2E278B8600742381;
-			remoteInfo = PetPlusV2;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		6FDE6ACC2E278B8600742381 /* PetPlusV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetPlusV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FDE6ADB2E278B8800742381 /* PetPlusV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetPlusV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FDE6AE52E278B8800742381 /* PetPlusV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetPlusV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6FDE6B262E27938200742381 /* Exceptions for "PetPlusV2" folder in "PetPlusV2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6FDE6ACB2E278B8600742381 /* PetPlusV2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6FDE6ACE2E278B8600742381 /* PetPlusV2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6FDE6B262E27938200742381 /* Exceptions for "PetPlusV2" folder in "PetPlusV2" target */,
+			);
 			path = PetPlusV2;
-			sourceTree = "<group>";
-		};
-		6FDE6ADE2E278B8800742381 /* PetPlusV2Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PetPlusV2Tests;
-			sourceTree = "<group>";
-		};
-		6FDE6AE82E278B8800742381 /* PetPlusV2UITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PetPlusV2UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6FDE6AC92E278B8600742381 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FDE6AD82E278B8800742381 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FDE6AE22E278B8800742381 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				6FDE6ACE2E278B8600742381 /* PetPlusV2 */,
-				6FDE6ADE2E278B8800742381 /* PetPlusV2Tests */,
-				6FDE6AE82E278B8800742381 /* PetPlusV2UITests */,
 				6FDE6ACD2E278B8600742381 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				6FDE6ACC2E278B8600742381 /* PetPlusV2.app */,
-				6FDE6ADB2E278B8800742381 /* PetPlusV2Tests.xctest */,
-				6FDE6AE52E278B8800742381 /* PetPlusV2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +83,6 @@
 			productReference = 6FDE6ACC2E278B8600742381 /* PetPlusV2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6FDE6ADA2E278B8800742381 /* PetPlusV2Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6FDE6AF22E278B8800742381 /* Build configuration list for PBXNativeTarget "PetPlusV2Tests" */;
-			buildPhases = (
-				6FDE6AD72E278B8800742381 /* Sources */,
-				6FDE6AD82E278B8800742381 /* Frameworks */,
-				6FDE6AD92E278B8800742381 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6FDE6ADD2E278B8800742381 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6FDE6ADE2E278B8800742381 /* PetPlusV2Tests */,
-			);
-			name = PetPlusV2Tests;
-			packageProductDependencies = (
-			);
-			productName = PetPlusV2Tests;
-			productReference = 6FDE6ADB2E278B8800742381 /* PetPlusV2Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6FDE6AE42E278B8800742381 /* PetPlusV2UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6FDE6AF52E278B8800742381 /* Build configuration list for PBXNativeTarget "PetPlusV2UITests" */;
-			buildPhases = (
-				6FDE6AE12E278B8800742381 /* Sources */,
-				6FDE6AE22E278B8800742381 /* Frameworks */,
-				6FDE6AE32E278B8800742381 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6FDE6AE72E278B8800742381 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6FDE6AE82E278B8800742381 /* PetPlusV2UITests */,
-			);
-			name = PetPlusV2UITests;
-			packageProductDependencies = (
-			);
-			productName = PetPlusV2UITests;
-			productReference = 6FDE6AE52E278B8800742381 /* PetPlusV2UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +95,6 @@
 				TargetAttributes = {
 					6FDE6ACB2E278B8600742381 = {
 						CreatedOnToolsVersion = 16.4;
-					};
-					6FDE6ADA2E278B8800742381 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 6FDE6ACB2E278B8600742381;
-					};
-					6FDE6AE42E278B8800742381 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 6FDE6ACB2E278B8600742381;
 					};
 				};
 			};
@@ -201,28 +113,12 @@
 			projectRoot = "";
 			targets = (
 				6FDE6ACB2E278B8600742381 /* PetPlusV2 */,
-				6FDE6ADA2E278B8800742381 /* PetPlusV2Tests */,
-				6FDE6AE42E278B8800742381 /* PetPlusV2UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6FDE6ACA2E278B8600742381 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FDE6AD92E278B8800742381 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FDE6AE32E278B8800742381 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +135,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FDE6AD72E278B8800742381 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FDE6AE12E278B8800742381 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6FDE6ADD2E278B8800742381 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6FDE6ACB2E278B8600742381 /* PetPlusV2 */;
-			targetProxy = 6FDE6ADC2E278B8800742381 /* PBXContainerItemProxy */;
-		};
-		6FDE6AE72E278B8800742381 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6FDE6ACB2E278B8600742381 /* PetPlusV2 */;
-			targetProxy = 6FDE6AE62E278B8800742381 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6FDE6AED2E278B8800742381 /* Debug */ = {
@@ -400,6 +269,7 @@
 				DEVELOPMENT_TEAM = 6X32JCP4W2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetPlusV2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -412,6 +282,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = FirstClass.PetPlusV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -428,6 +302,7 @@
 				DEVELOPMENT_TEAM = 6X32JCP4W2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetPlusV2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,81 +315,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = FirstClass.PetPlusV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		6FDE6AF32E278B8800742381 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6X32JCP4W2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = FirstClass.PetPlusV2Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetPlusV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetPlusV2";
-			};
-			name = Debug;
-		};
-		6FDE6AF42E278B8800742381 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6X32JCP4W2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = FirstClass.PetPlusV2Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetPlusV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetPlusV2";
-			};
-			name = Release;
-		};
-		6FDE6AF62E278B8800742381 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6X32JCP4W2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = FirstClass.PetPlusV2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PetPlusV2;
-			};
-			name = Debug;
-		};
-		6FDE6AF72E278B8800742381 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6X32JCP4W2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = FirstClass.PetPlusV2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PetPlusV2;
 			};
 			name = Release;
 		};
@@ -535,24 +342,6 @@
 			buildConfigurations = (
 				6FDE6AF02E278B8800742381 /* Debug */,
 				6FDE6AF12E278B8800742381 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6FDE6AF22E278B8800742381 /* Build configuration list for PBXNativeTarget "PetPlusV2Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6FDE6AF32E278B8800742381 /* Debug */,
-				6FDE6AF42E278B8800742381 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6FDE6AF52E278B8800742381 /* Build configuration list for PBXNativeTarget "PetPlusV2UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6FDE6AF62E278B8800742381 /* Debug */,
-				6FDE6AF72E278B8800742381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
