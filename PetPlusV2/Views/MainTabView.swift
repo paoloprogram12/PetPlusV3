@@ -28,7 +28,6 @@ struct MainTabView: View {
                         Text("Home")
                             .tabItem {
                                 Label("Home", systemImage: "house.circle.fill")
-                                    .controlSize(.extraLarge)
                             }
                             .tag(2)
                         Text("Services")
