@@ -12,7 +12,6 @@ struct MainTabView: View {
     var body: some View {
         ZStack(alignment: .bottom) {
                     TabView(selection: $selection) {
-                        // TODO: Replace dashboard views with custom views
                         FoodView()
                             .tabItem {
                                 Label("Food", systemImage: ("fork.knife.circle.fill"))
