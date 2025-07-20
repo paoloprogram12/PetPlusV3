@@ -19,7 +19,7 @@ struct MainTabView: View {
                                     .foregroundColor(Color("mainColor"))
                             }
                             .tag(0)
-                        Text("Exercise")
+                        ExerciseView()
                             .tabItem {
                                 Label("Exercise", systemImage: ("figure.run.circle.fill"))
                                     .foregroundColor(Color("mainColor"))
@@ -30,7 +30,7 @@ struct MainTabView: View {
                                 Label("Dashboard", systemImage: "house.circle.fill")
                             }
                             .tag(2)
-                        Text("Services")
+                        ServicesView()
                             .tabItem {
                                 Label("Services", systemImage: ("magnifyingglass.circle.fill"))
                                     .foregroundColor(Color("mainColor"))
