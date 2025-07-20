@@ -46,7 +46,7 @@ struct MainTabView: View {
                     Button {
                         
                     } label: {
-                        Image(systemName: "house.circle.fill")
+                        Image(systemName: "house")
                             .tint(Color(.white))
                             .font(.title)
                     }
