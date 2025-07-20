@@ -25,9 +25,10 @@ struct MainTabView: View {
                                     .foregroundColor(Color("mainColor"))
                             }
                             .tag(1)
-                        Spacer()
+                        Text("Home")
                             .tabItem {
-                                EmptyView()
+                                Label("Home", systemImage: "house.circle.fill")
+                                    .controlSize(.extraLarge)
                             }
                             .tag(2)
                         Text("Services")
@@ -43,16 +44,16 @@ struct MainTabView: View {
                             }
                             .tag(4)
                     }
-                    Button {
-                        
-                    } label: {
-                        Image(systemName: "house")
-                            .tint(Color(.white))
-                            .font(.title)
-                    }
-                    .frame(width: 50, height: 50)
-                    .background(Color("mainColor"))
-                    .clipShape(Circle())
+//                    Button {
+//                        
+//                    } label: {
+//                        Image(systemName: "house")
+//                            .tint(Color(.white))
+//                            .font(.title)
+//                    }
+//                    .frame(width: 50, height: 50)
+//                    .background(Color("mainColor"))
+//                    .clipShape(Circle())
                 }
                 .ignoresSafeArea(.keyboard)
                 .onChange(of: selection, perform: { [selection] newValue in
