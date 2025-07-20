@@ -13,7 +13,7 @@ struct MainTabView: View {
         ZStack(alignment: .bottom) {
                     TabView(selection: $selection) {
                         // TODO: Replace dashboard views with custom views
-                        Text("Food")
+                        FoodView()
                             .tabItem {
                                 Label("Food", systemImage: ("fork.knife.circle.fill"))
                                     .foregroundColor(Color("mainColor"))
@@ -25,9 +25,9 @@ struct MainTabView: View {
                                     .foregroundColor(Color("mainColor"))
                             }
                             .tag(1)
-                        Text("Home")
+                        DashboardView()
                             .tabItem {
-                                Label("Home", systemImage: "house.circle.fill")
+                                Label("Dashboard", systemImage: "house.circle.fill")
                             }
                             .tag(2)
                         Text("Services")
@@ -36,23 +36,13 @@ struct MainTabView: View {
                                     .foregroundColor(Color("mainColor"))
                             }
                             .tag(3)
-                        Text("Profile")
+                        ProfileView()
                             .tabItem {
                                 Label("Profile", systemImage: ("person.crop.circle.fill"))
                                     .foregroundColor(Color("mainColor"))
                             }
                             .tag(4)
                     }
-//                    Button {
-//                        
-//                    } label: {
-//                        Image(systemName: "house")
-//                            .tint(Color(.white))
-//                            .font(.title)
-//                    }
-//                    .frame(width: 50, height: 50)
-//                    .background(Color("mainColor"))
-//                    .clipShape(Circle())
                 }
                 .ignoresSafeArea(.keyboard)
     }
