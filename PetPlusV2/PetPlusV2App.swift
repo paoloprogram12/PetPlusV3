@@ -30,6 +30,5 @@ struct PetPlusV2App: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(sharedModelContainer)
     }
 }
