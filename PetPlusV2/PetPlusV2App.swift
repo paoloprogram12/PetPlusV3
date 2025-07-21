@@ -7,11 +7,17 @@
 
 import SwiftUI
 import SwiftData
+import UIKit
 
 @main
 struct PetPlusV2App: App {
     init() {
-        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.init(name: "Poppins-Regular", size: 12)], for: .normal)
+        let fallbackFont = UIFont.systemFont(ofSize: 12)
+                let customFont  = UIFont(name: "Poppins-Regular", size: 12) ?? fallbackFont
+
+                UITabBarItem.appearance().setTitleTextAttributes([
+                    .font: customFont
+                ], for: .normal)
     }
 //    var sharedModelContainer: ModelContainer = {
 //        let schema = Schema([
